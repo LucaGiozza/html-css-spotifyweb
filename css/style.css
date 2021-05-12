@@ -54,15 +54,16 @@ h4{
 /* titolo del main */
 
 .title-main{
-    
+    margin-left: 2%;
     color: white;
 }
 /* inizio immagini e descrizioni main */
 
 .foto-main{
+    margin-top: 4%;
     height: 150px;
     background-color: rgb(15, 10, 83);
-    border: 1px solid white;
+    
     margin-left: 10px;
    
 }
@@ -71,7 +72,7 @@ h4{
 }
 .immagine-main{
     height: 100%;
-    width: 100%;
+    width: 95%;
 }
 .desc-main{
     height: 70px;
