@@ -3,7 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+   
+}
 .box{
-    height: 30px;
-    
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.box-left{
+    height: 100vh;
+    background-color: black;
+    z-index: 990;
+}
+.box-main{
+    height: 100vh;
+    background-color: blue;
+
 }
