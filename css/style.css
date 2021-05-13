@@ -19,6 +19,7 @@ body{
     height: calc(100vh - 90px);
     background-color: rgb(15, 10, 83);
     overflow: auto;
+    flex-shrink: 2;
 
 }
 /* header del main */
@@ -37,12 +38,15 @@ body{
     width: 100%;
     line-height: 50px;
     margin-top: 75px;
+   
+
     
 }
 h4{
     text-transform: uppercase;
     font-size: 10px;
     text-align: center;
+  
     
     
 }
@@ -92,6 +96,63 @@ h6{
 .stranger{
     max-width: 90%;
     margin-left: 5%;
+}
+
+
+/* colonna di sinistra */
+.debug .upper-sidebar,
+.debug .lower-sidebar{
+    width:100%;
+}
+
+.debug .lower-sidebar{
+    height:150px;
+    background-color:red;
+    flex-shrink: 1;
+}
+
+/* Sidebar */
+
+.sidebar-container{
+    min-height:480px;
+    height: calc(100vh - 90px);
+    color:#fff;
+}
+
+.upper-sidebar{
+    height: calc(100% - 150px);
+}
+
+.logo img{
+    width:70%;
+}
+
+/* Sidebar debug part */
+
+.debug .logo{
+    width:100%;
+    background-color: #000;
+}
+
+/* 
+.debug .sidebar-menu{
+    height:120px;
+}
+
+.debug .playlist-menu{
+    height:200px;
+} */
+
+.playlist-menu{
+    overflow:hidden;
+    height:80%;
+    /* min-height:400px; */
+}
+
+.temp-height{
+    overflow-y: auto;
+    height:50%;
+   
 }
 
 
