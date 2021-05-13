@@ -50,9 +50,7 @@ h4{
     
     
 }
-.centrate{
-    justify-content: center;
-}
+
 
 
 /* titolo del main */
@@ -106,7 +104,7 @@ h6{
 }
 
 .debug .lower-sidebar{
-    height:150px;
+    height:90px;
     background-color:red;
     flex-shrink: 1;
 }
@@ -120,11 +118,12 @@ h6{
 }
 
 .upper-sidebar{
-    height: calc(100% - 150px);
+    height: calc(100% - 90px);
 }
 
 .logo img{
     width:70%;
+    padding: 6%;
 }
 
 /* Sidebar debug part */
@@ -134,27 +133,56 @@ h6{
     background-color: #000;
 }
 
-/* 
-.debug .sidebar-menu{
-    height:120px;
-}
 
-.debug .playlist-menu{
-    height:200px;
-} */
 
-.playlist-menu{
-    overflow:hidden;
-    height:80%;
-    /* min-height:400px; */
-}
+
 
 .temp-height{
     overflow-y: auto;
-    height:50%;
+    height:80%;
    
 }
 
+/* parte centrale della colonna */
+li{
+    list-style: none;
+    padding-top: 5%;
+    font-size: 13px;
+}
+.li-gray{
+    color: gray;
+}
+
+.playlist-menu{
+    overflow:hidden;
+    height:70%;
+    /* min-height:400px; */
+    margin-left: 8%;
+    padding-top: 6%;
+}
+
+.sidebar-menu{
+ margin-left: 8%;
+ padding-top: 5%;
+    
+
+}
+
+
+.grigio{
+    padding: 6px;
+    background-color:gray ;
+
+}
+
+
+/* parte bassa della colonna di sinistra */
+.riga-lower{
+
+}
+.installa{
+    color: gray;
+}
 
 
 
