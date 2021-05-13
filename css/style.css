@@ -87,6 +87,13 @@ h4{
     margin-left: 2%;
     color: white;
 }
+.descrizione-title{
+    color: gray;
+    font-size: 11px;
+    margin-left: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
 /* inizio immagini e descrizioni main */
 
 .foto-main{
