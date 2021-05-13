@@ -28,8 +28,36 @@ body{
     height: 75px;
     background-color:rgba(0, 0, 0, 0.4);
     position: fixed;
+    line-height: 75px;
+   
     
 }
+.upgrade-container{
+
+        display: flex;
+        justify-content: flex-end;
+        width: 82%;
+}
+.upgrade{
+    color: white;
+    
+   
+
+
+}
+.effettua{
+    
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.upgrade a{
+    text-decoration: none;
+  
+} 
 
 /* nav del main */
 .nav{
@@ -105,7 +133,7 @@ h6{
 
 .debug .lower-sidebar{
     height:90px;
-    background-color:red;
+    
     flex-shrink: 1;
 }
 
@@ -122,7 +150,7 @@ h6{
 }
 
 .logo img{
-    width:70%;
+    width:60%;
     padding: 6%;
 }
 
@@ -146,11 +174,14 @@ h6{
 /* parte centrale della colonna */
 li{
     list-style: none;
-    padding-top: 5%;
+    padding-top: 6%;
     font-size: 13px;
 }
 .li-gray{
     color: gray;
+}
+.play{
+    font-size: 14px;
 }
 
 .playlist-menu{
@@ -178,10 +209,13 @@ li{
 
 /* parte bassa della colonna di sinistra */
 .riga-lower{
+    width: 80%;
+    margin-left: 5%;
+    margin: 5%;
 
 }
 .installa{
-    color: gray;
+    margin-left: 8%;
 }
 
 
