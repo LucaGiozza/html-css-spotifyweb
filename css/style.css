@@ -356,7 +356,7 @@ li{
 
 }
 #barra {
-    width: 200px;
+    width: 250px;
     height: 4px;
     margin-top:16px;
     
@@ -393,16 +393,58 @@ li{
     margin-bottom:25px;
     align-self: center;
     padding-left: 150px;
-    margin-right: -180px;
-    margin-left:40px
+    margin-right: -210px;
+    margin-left:40px;
     
+    
+}
+.random{
+    padding-left:80px;
 }
 .play{
     font-size:20px;
+    margin: 0 40px;
 }
 .cerchio{
     margin-right:-6px;
 }
+
+
+/* footer-right */
+.footer-right{
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+
+    
+    
+}
+.icone-footer-right{
+    font-size:10px;
+    color:white;
+}
+.computer{
+    margin: 0 10px;
+}
+#barra-right {
+    width: 110px;
+    height: 4px;
+    margin-left: 10px;
+    
+    
+    background-color: gray;
+    border-radius: 10px;
+    
+}
+#caricamento-barra-right {
+    height: 4px;
+    background-color: white;
+    width: 20%;
+    border-radius: 10px;
+    
+}
+
 
 
 
