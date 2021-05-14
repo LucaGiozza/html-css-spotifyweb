@@ -351,12 +351,12 @@ li{
 .footer-center{
     display:flex;
     align-items: center;
-    margin-right:90px
+    margin-right:180px;
     
 
 }
 #barra {
-    width: 250px;
+    width: 200px;
     height: 4px;
     margin-top:16px;
     
@@ -393,8 +393,15 @@ li{
     margin-bottom:25px;
     align-self: center;
     padding-left: 150px;
-    margin-right: -120px;
+    margin-right: -180px;
+    margin-left:40px
     
+}
+.play{
+    font-size:20px;
+}
+.cerchio{
+    margin-right:-6px;
 }
 
 
