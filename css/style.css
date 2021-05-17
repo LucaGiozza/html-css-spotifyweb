@@ -6,6 +6,7 @@
 }
 body{
     /* overflow: hidden; */
+    scrollbar-face-color: white;
    
 }
 a{
@@ -26,6 +27,7 @@ a{
      max-width:50px; 
     height: calc(100vh - 60px);
     background-color: black;
+    scrollbar-color: white;
     /* overflow: auto; */
     
 }
@@ -41,6 +43,7 @@ a{
 }
 .li-gray{
     font-size:10px;
+    color: gray;
 
 }
 .li-top1{
@@ -95,10 +98,10 @@ a{
 
 .debug .logo{
     width:80%;
-    background-color: #000;
+    background-color: black;
 }
 .lower-sidebar{
-    background-color: black;
+    background-color:  black;
 }
 
 
@@ -107,6 +110,8 @@ a{
 .temp-height{
     overflow-y: auto;
     height:80%;
+    color: gray;
+    
    
 }
 
@@ -124,7 +129,8 @@ li{
 }
 
 .playlist-menu{
-    overflow:hidden;
+    overflow: hidden;
+    
     height:70%;
     /* min-height:400px; */
     margin-left: 8%;
@@ -136,6 +142,12 @@ li{
  padding-top: 5%;
     
 
+}
+.home-aside{
+    color: gray;
+}
+.john{
+    color: white;
 }
 
 
@@ -157,6 +169,7 @@ li{
     margin-left: 8%; 
      min-width: 106px; 
     display: inline-block;
+    color: gray;
 }
 
 /* media queri aside */
@@ -221,7 +234,7 @@ li{
 
 .box-main{
     height: calc(100vh - 60px);
-    background-color: rgb(15, 10, 83);
+    background-color: rgb(24, 23, 23);
     
     overflow-x: hidden;
     overflow-y:auto;
@@ -432,6 +445,9 @@ footer i{
     width:10%;
 
 }
+.player-icons i{
+  color:gray;
+}
 
 .player-album-cover img{
     width: 100%;
@@ -450,7 +466,9 @@ footer i{
     color: gray; 
 }
 
-
+#cerchio-play{
+    font-size:20px;
+}
 .player-sinistro{
    padding:10px; 
 }
@@ -505,6 +523,11 @@ flex-wrap:nowrap;
 .player-destro{
     padding:10px;
     height: 60px;
+    
+}
+.player-destro i{
+    color: gray;
+
 }
 @media screen and (max-width:655px) {
     .piccola{
@@ -526,4 +549,62 @@ flex-wrap:nowrap;
     
 }
 
+/* sezione Hover */
+
+/* hover aside  */
+.home-aside:hover{
+    color:white;
+    cursor:pointer;
+}
+.li-gray:hover,
+.play:hover,
+.temp-height li:hover{
+    color:white;
+    cursor:pointer;
+
+}
+
+/* hover header{ */
+
+.effettua:hover{
+font-size: 13px;
+cursor:pointer;
+}
+
+/* hover nel nav */
+.menu-list a:hover{
+    color:white;
+    cursor:pointer;
+}
+.menu-list a:hover{
+    border-bottom: 1px solid white;
+    cursor:pointer;
+    
+    
+   
+    
+}
+
+/* hover nel footer */
+.brano-nome:hover{
+    color: white;
+    cursor:pointer;
+}
+.player-icons i:hover{
+    color: white;
+    cursor:pointer;
+}
+.play-center i:hover{
+    cursor: pointer;
+    font-size:23px;
+    
+}
+ #cerchio-play:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+.player-destro i:hover{
+    color:white;
+    cursor: pointer;
+}
  
