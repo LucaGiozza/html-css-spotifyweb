@@ -419,3 +419,6 @@
     .bottom-lg {
         align-items: flex-end;
     }
+    .row-column{
+        flex-direction:column;
+    }
