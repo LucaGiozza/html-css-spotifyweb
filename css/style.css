@@ -57,20 +57,22 @@ body{
 .box-main{
     height: calc(100vh - 60px);
     background-color: rgb(15, 10, 83);
-    overflow: auto;
-    flex-shrink: 2;
+    
+    overflow-x: hidden;
+    overflow-y:auto;
+    
+    
 
 }
+/* #content{
+    overflow-x: hidden;
+    overflow-y:auto;
+} */
 
 
 /* header del main */
 
-.upgrade-container{
 
-        /* display: flex;
-        justify-content: flex-end;
-        /* width: 82%; */
-} */
 .upgrade{
     color: white;
 }
@@ -92,30 +94,42 @@ body{
 
 
 /* nav del main */
-.nav{
-    height: 50px;
-    color: white;
-    width: 100%;
-    line-height: 50px;
-    margin-top: 75px;
-   
 
+.menu-list li{
+    display:inline-block ;
+    margin: 0 10px;
     
 }
-h4{
-    text-transform: uppercase;
-    font-size: 9px;
+.main-content-menu{
+    padding-top:75px;
     text-align: center;
-  
+    padding-bottom: 30px;
     
     
 }
+
+@media screen  and (max-width:670px) {
+    .menu-list li{
+        font-size: 9px;
+    }
+    
+}
+
+.menu-list li a{
+   color: gray;
+   text-decoration: none;
+   
+    
+}
+
+
+
 
 
 
 /* titolo del main */
 
-.title-main{
+/* .title-main{
     margin-left: 2%;
     color: white;
 }
@@ -125,10 +139,74 @@ h4{
     margin-left: 2%;
     margin-top: 0.5%;
     margin-bottom: 0.5%;
-}
+} */
 /* inizio immagini e descrizioni main */
 
-.foto-main{
+
+.cover-container{
+    width:100%;
+    padding:15px;
+    position: relative;
+    display: flex;
+}
+.cover-container img{
+    width:100%;
+    margin: 0 10px;
+}
+.title{
+    margin-left:5% ;
+    color: white;
+    
+}
+.cover-text{
+    text-align: center;
+    color: white;
+}
+.titolino-foto{
+    font-size: 12px;
+}
+.sottotitolo{
+    color: gray;
+    font-size: 10px;
+}
+
+
+.cover-layover{
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: transparent;
+    
+
+
+}
+.cover-layover:hover i{
+    color: white;
+    font-size: 50px;
+    
+}
+
+.create{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+
+.gray{
+    color: gray;
+    font-size: 12px;
+}
+.popular{
+    margin-top:30px;
+}
+
+
+/* .foto-main{
     margin-top: 4%;
     height: 150px;
     background-color: rgb(15, 10, 83);
@@ -188,7 +266,7 @@ h6{
 .stranger{
     max-width: 90%;
     margin-left: 5%;
-}
+} */
 
 
 /* colonna di sinistra */
@@ -297,6 +375,7 @@ li{
     display: flex;
     justify-content: space-between;
     zindex:200;
+    flex-wrap: nowrap;
  
     
 }
@@ -309,6 +388,7 @@ li{
 
     display: flex;
     align-items: center;
+    flex-wrap: nowrap;
     
 }
 
@@ -352,6 +432,7 @@ li{
     display:flex;
     align-items: center;
     margin-right:180px;
+    flex-wrap:nowrap;
     
 
 }
