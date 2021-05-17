@@ -48,7 +48,8 @@ body{
    width:117%;
 }
 .header{
-    width:calc(100% - 50px);
+    /* width:calc(100% - 50px); */
+    
     height: 75px;
     background-color:rgba(0, 0, 0, 0.4);
     position: fixed;
@@ -59,7 +60,7 @@ body{
 
 @media screen and (min-width:576px) {
     .aside{
-        min-width:191px;  
+        min-width:230px;  
     }
     .header{
         width:calc(100% - 230px);
@@ -255,13 +256,13 @@ h6{
 /* colonna di sinistra */
 .debug .upper-sidebar,
 .debug .lower-sidebar{
-    width:100%;
+    /* width:100%; */
 }
 
 .debug .lower-sidebar{
     
     
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
 }
 
 /* Sidebar */
@@ -342,9 +343,9 @@ li{
 
 }
 .installa{
-    margin-left: 8%;
-    min-width: 106px;
-display: inline-block;
+    margin-left: 8%; 
+     min-width: 106px; 
+    display: inline-block;
 }
 
 
