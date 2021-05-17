@@ -8,6 +8,11 @@ body{
     /* overflow: hidden; */
    
 }
+a{
+    text-decoration: none;
+    color:white ;
+    
+}
 .box{
     height: 70px;
     background-color: rgba(0, 0, 0, 0.856);
@@ -24,6 +29,9 @@ body{
     /* overflow: auto; */
     
 }
+.play{
+    color:gray;
+}
 .box-left{
     margin-left:10px;
 }
@@ -36,11 +44,13 @@ body{
 
 }
 .li-top1{
-    margin-top:10px
+    margin-top:10px;
+    color:gray;
     
 }
 .li-top2{
     margin-top:10px;
+    color:gray;
     
       
 }
@@ -63,6 +73,8 @@ body{
 }
 
 /* Sidebar */
+
+
 
 .sidebar-container{
     min-height:480px;
@@ -145,6 +157,48 @@ li{
     margin-left: 8%; 
      min-width: 106px; 
     display: inline-block;
+}
+
+/* media queri aside */
+@media screen and (max-width:575px) {
+    .li-gray{
+        display: none;
+    }
+    .john{
+        display:none;
+    }
+    .riga-lower{
+        display:none;
+    }
+    .lower-sidebar{
+        
+        margin-top:70px;
+    }
+    .installa{
+        font-size:14px;
+        margin: 4px;
+    }
+    .temp-height{
+        display: none;
+    }
+    .play-list{
+        display:none;
+    }
+    .home-aside{
+        display:none;
+    }
+    .header{
+        width:calc(100% - 50px);
+       }
+       .debug .logo{
+           width:100%;
+           margin-top: 5%;
+       }
+       .menu-list{
+           font-size:5px;
+       }
+    
+    
 }
 
 /* fine aside */
